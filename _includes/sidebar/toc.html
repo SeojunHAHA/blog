@@ -12,6 +12,22 @@
   </div>
 </div>
 
+<!-- Visitor Counter Section -->
+<div class="sidebar-visitor" style="text-align: center; padding: 0.5em 0.5em 1em; margin-bottom: 1em; border-bottom: 1px solid #eee;">
+  <div style="font-size: 0.8em; font-weight: 600; color: #555; margin-bottom: 0.5em;">방문자 통계</div>
+  <div style="display: flex; justify-content: center; gap: 1.2em;">
+    <div>
+      <div style="font-size: 0.7em; color: #999;">전체 방문자</div>
+      <div style="font-size: 1em; font-weight: 700; color: #333;"><span id="busuanzi_value_site_uv">-</span></div>
+    </div>
+    <div>
+      <div style="font-size: 0.7em; color: #999;">전체 조회수</div>
+      <div style="font-size: 1em; font-weight: 700; color: #333;"><span id="busuanzi_value_site_pv">-</span></div>
+    </div>
+  </div>
+</div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <!-- Navigation Section -->
 {%- if page.sidebar.nav -%}
   <div class="sidebar-toc">
