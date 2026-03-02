@@ -43,6 +43,9 @@ paths:
 toc:
   selectors: "h1,h2,h3"
 
+## Pageview (방문자 수 표시)
+pageview_provider: busuanzi
+
 ## Sidebar
 sidebar:
   nav: docs
