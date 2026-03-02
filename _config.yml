@@ -1,4 +1,6 @@
 remote_theme: kitian616/jekyll-text-theme
+text_skin: default
+text_color_theme: default
 
 ## Site Settings
 title: "Tech Blog"
