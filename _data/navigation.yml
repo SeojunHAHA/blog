@@ -18,7 +18,7 @@ docs-en:
   - title: Paper Review
     children:
       - title: "[ViT] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
-        url: /cv/VisionTransformer-kr/
+        url: /paper/VisionTransformer-kr/
   - title: Linear Algebra
     children: []
   - title: Statistics
@@ -32,7 +32,7 @@ docs-kr:
   - title: 논문 리뷰
     children:
       - title: "[ViT] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
-        url: /cv/VisionTransformer-kr/
+        url: /paper/VisionTransformer-kr/
   - title: 선형대수학
     children: []
   - title: 통계학
