@@ -1,0 +1,7 @@
+en:
+  ARTICLE_DATE_FORMAT: "%Y-%m-%d"
+  ARTICLE_LIST_DATE_FORMAT: "%m-%d"
+
+ko:
+  ARTICLE_DATE_FORMAT: "%Y-%m-%d"
+  ARTICLE_LIST_DATE_FORMAT: "%m-%d"
