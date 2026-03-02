@@ -17,11 +17,11 @@
 <div class="sidebar-visitor" style="text-align: center; padding: 0.5em 0.5em 1em; margin-bottom: 1em; border-bottom: 1px solid #eee;">
   <div style="display: flex; justify-content: center; gap: 1.2em;">
     <div>
-      <div style="font-size: 0.7em; color: #999;">Visitors</div>
+      <div style="font-size: 0.7em; color: #999;">{% if page.sidebar.nav == 'docs-kr' %}전체 방문자{% else %}Visitors{% endif %}</div>
       <div style="font-size: 1em; font-weight: 700; color: #333;"><span id="busuanzi_value_site_uv">-</span></div>
     </div>
     <div>
-      <div style="font-size: 0.7em; color: #999;">Views</div>
+      <div style="font-size: 0.7em; color: #999;">{% if page.sidebar.nav == 'docs-kr' %}전체 조회수{% else %}Views{% endif %}</div>
       <div style="font-size: 1em; font-weight: 700; color: #333;"><span id="busuanzi_value_site_pv">-</span></div>
     </div>
   </div>
