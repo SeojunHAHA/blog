@@ -15,7 +15,7 @@ header:
 docs:
   - title: Computer Vision
     children:
-      - title: "Computer Vision 개요"
+      - title: "Computer Vision Intro"
         url: /computer%20vision/computer-vision-intro/
   - title: Paper Review
     children: []
@@ -24,4 +24,18 @@ docs:
   - title: Statistics
     children: []
   - title: Calculus
+    children: []
+
+docs-kr:
+  - title: 컴퓨터 비전
+    children:
+      - title: "Computer Vision 개요"
+        url: /computer%20vision/computer-vision-intro/
+  - title: 논문 리뷰
+    children: []
+  - title: 선형대수학
+    children: []
+  - title: 통계학
+    children: []
+  - title: 미적분학
     children: []
