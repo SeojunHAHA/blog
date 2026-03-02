@@ -4,6 +4,7 @@ tags:
   - Computer Vision
 categories:
   - CV
+lang: ko
 sidebar:
   nav: docs-kr
 aside:
