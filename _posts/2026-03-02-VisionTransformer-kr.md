@@ -41,5 +41,5 @@ Inductive biases:
 </p>
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/posts/VisionTransformer/3.png" width="70%">
+  <img src="{{ site.baseurl }}/assets/images/posts/VisionTransformer/3.png" width="100%">
 </p>
