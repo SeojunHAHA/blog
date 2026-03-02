@@ -1,0 +1,40 @@
+<!-- Profile Section -->
+<div class="sidebar-profile" style="text-align: center; padding: 1em 0.5em; margin-bottom: 1em; border-bottom: 1px solid #eee;">
+  <a href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}/assets/images/profile.jpeg" alt="profile" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 0.5em;">
+  </a>
+  <div style="font-size: 1.1em; font-weight: 700; margin-bottom: 0.2em;">Seojun Ha</div>
+  <div style="font-size: 0.8em; color: #888; margin-bottom: 0.3em;">Undergraduate Student<br>@ Keimyung University</div>
+  <div style="font-size: 0.75em; color: #999; margin-bottom: 0.5em;">seojundoesit@gmail.com</div>
+  <div>
+    <a href="https://github.com/seojunhaha" style="margin: 0 0.3em; color: #333;"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/seojunha" style="margin: 0 0.3em; color: #333;"><i class="fab fa-linkedin"></i></a>
+  </div>
+</div>
+
+<!-- Navigation Section -->
+{%- if page.sidebar.nav -%}
+  <div class="sidebar-toc">
+    {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
+    {%- if _sidebar_nav -%}
+    <ul class="toc toc--navigator">
+      {%- for _item in _sidebar_nav -%}
+        <li class="toc-h1">{{ _item.title }}</li>
+        {%- if _item.children -%}
+          {%- for _child in _item.children -%}
+            {%- include snippets/get-nav-url.html path=_child.url -%}
+            {%- assign _nav_url = __return -%}
+            {%- include snippets/get-nav-url.html path=page.url -%}
+            {%- assign _page_url = __return -%}
+            {%- if _nav_url == _page_url -%}
+              <li class="toc-h2 active"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+            {%- else -%}
+              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+{%- endif -%}

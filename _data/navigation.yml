@@ -1,8 +1,12 @@
 header:
   - titles:
-      en: Categories
-      ko: Categories
-    url: /categories/
+      en: KR
+      ko: KR
+    url: /
+  - titles:
+      en: EN
+      ko: EN
+    url: /en/
   - titles:
       en: About
       ko: About
