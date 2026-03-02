@@ -3,8 +3,8 @@ text_skin: default
 highlight_theme: default
 
 ## Site Settings
-title: "Tech Blog"
-description: "Tech Blog"
+title: "Learning to See"
+description: "Learning to See"
 url: "https://seojunhaha.github.io"
 baseurl: "/blog"
 repository: "seojunhaha/blog"
