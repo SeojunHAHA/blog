@@ -4,6 +4,7 @@ highlight_theme: default
 
 ## Site Settings
 title: "Learning to See"
+logo: "/blog/assets/images/apple-touch-icon.png"
 description: "Learning to See"
 url: "https://seojunhaha.github.io"
 baseurl: "/blog"
