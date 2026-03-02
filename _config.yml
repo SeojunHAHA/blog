@@ -37,7 +37,7 @@ plugins:
 
 ## Paths
 paths:
-  root: /blog
+  root: /
 
 ## TOC
 toc:
