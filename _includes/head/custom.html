@@ -2,7 +2,50 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
 <style>
   .header .site-title {
-    font-size: 1.5em !important;
-    font-weight: 800 !important;
+    display: none !important;
+  }
+  .header .custom-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  .header .custom-brand img {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  .header .custom-brand .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+  .header .custom-brand .brand-title {
+    font-size: 1.4em;
+    font-weight: 800;
+  }
+  .header .custom-brand .brand-subtitle {
+    font-size: 0.7em;
+    color: #999;
+    font-weight: 400;
   }
 </style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var titleEl = document.querySelector(".header .site-title");
+    if (titleEl) {
+      var link = titleEl.closest("a") || titleEl.parentElement;
+      var href = link ? link.getAttribute("href") : "{{ site.baseurl }}/";
+      var brand = document.createElement("a");
+      brand.className = "custom-brand";
+      brand.href = href;
+      brand.innerHTML = '<img src="{{ site.baseurl }}/assets/images/favicon.ico" alt="logo">' +
+        '<div class="brand-text">' +
+        '<span class="brand-title">Computer Vision Research Space</span>' +
+        '<span class="brand-subtitle">Learning to See</span>' +
+        '</div>';
+      link.parentElement.insertBefore(brand, link);
+      link.style.display = "none";
+    }
+  });
+</script>

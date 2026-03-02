@@ -3,8 +3,7 @@ text_skin: default
 highlight_theme: default
 
 ## Site Settings
-title: "Learning to See"
-logo: "/assets/images/apple-touch-icon.png"
+title: "Computer Vision Research Space"
 description: "Learning to See"
 url: "https://seojunhaha.github.io"
 baseurl: "/blog"
