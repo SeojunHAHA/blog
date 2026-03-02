@@ -3,9 +3,9 @@ title: "[ViT] An Image is Worth 16x16 Words: Transformers for Image Recognition 
 tags:
   - Computer Vision
 categories:
-  - Computer Vision
+  - CV
 sidebar:
-  nav: docs
+  nav: docs-kr
 aside:
   toc: true
 ---

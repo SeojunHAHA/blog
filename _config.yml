@@ -19,6 +19,9 @@ author:
   name: "seojunhaha"
   url: "https://github.com/seojunhaha"
 
+## Permalink (날짜 제거, 카테고리/제목만)
+permalink: /:categories/:title/
+
 ## Markdown and Syntax Highlighting
 markdown: kramdown
 highlighter: rouge
@@ -60,7 +63,7 @@ defaults:
     values:
       layout: article
       sidebar:
-        nav: docs
+        nav: docs-kr
       aside:
         toc: true
       show_edit_on_github: false
