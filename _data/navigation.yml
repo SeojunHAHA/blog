@@ -15,8 +15,8 @@ header:
 docs:
   - title: Computer Vision
     children:
-      - title: "첫 번째 포스트"
-        url: /computer%20vision/first-post/
+      - title: "Computer Vision 개요"
+        url: /computer%20vision/computer-vision-intro/
   - title: Paper Review
     children: []
   - title: Linear Algebra
