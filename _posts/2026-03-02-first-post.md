@@ -2,9 +2,11 @@
 title: "첫 번째 포스트"
 excerpt: "GitHub Pages 블로그를 시작합니다."
 categories:
-  - Blog
+  - Computer Vision
 tags:
-  - [Blog, Jekyll, GitHub Pages]
+  - Blog
+  - Jekyll
+  - GitHub Pages
 toc: true
 toc_sticky: true
 date: 2026-03-02

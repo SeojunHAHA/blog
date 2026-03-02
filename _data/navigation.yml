@@ -1,12 +1,35 @@
-# main links
+# main links (상단 네비게이션)
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Computer Vision"
+    url: /categories/computer-vision/
+  - title: "Paper Review"
+    url: /categories/paper-review/
+  - title: "Linear Algebra"
+    url: /categories/linear-algebra/
+  - title: "Statistics"
+    url: /categories/statistics/
+  - title: "Calculus"
+    url: /categories/calculus/
+
+# sidebar navigation (왼쪽 사이드바)
+docs:
+  - title: "Computer Vision"
+    children:
+      - title: "All Posts"
+        url: /categories/computer-vision/
+  - title: "Paper Review"
+    children:
+      - title: "All Posts"
+        url: /categories/paper-review/
+  - title: "Linear Algebra"
+    children:
+      - title: "All Posts"
+        url: /categories/linear-algebra/
+  - title: "Statistics"
+    children:
+      - title: "All Posts"
+        url: /categories/statistics/
+  - title: "Calculus"
+    children:
+      - title: "All Posts"
+        url: /categories/calculus/
