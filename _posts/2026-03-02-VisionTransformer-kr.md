@@ -1,7 +1,7 @@
 ---
 title: "[ViT] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
 tags:
-  - Computer Vision
+  - Paper Review
 categories:
   - Paper
 lang: ko
@@ -16,11 +16,12 @@ aside:
 오늘 리뷰해 볼 논문은 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale 입니다.
 NLP에 활용하기 위해 고안된 Transformer 구조를 이미지 분류에 적용시켜 SOTA급 성능을 달성했던 Vision Transformer 모델 논문입니다
 
-이전까지 큰 스케일의 이미지 작업은 ResNet과 같은 CNN 계열의 모델이 최고 수준의 성능을 보여왔었습니다. 그러나, NLP에서 Transformer 구조가 성능을 혁신하며 SOTA를 갱신한 것 처럼, Transformer의 인코더 구조를 최소한의 변화만으로 이미지 분류 문제에도 적용시켜 좋은 성능을 이끌어 낼 수 있는지에 대한 논문입니다.
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/images/posts/VisionTransformer/1.jpg" width="70%">
 </p>
+
+이전까지 큰 스케일의 이미지 작업은 ResNet과 같은 CNN 계열의 모델이 최고 수준의 성능을 보여왔었습니다. 그러나, NLP에서 Transformer 구조가 성능을 혁신하며 SOTA를 갱신한 것 처럼, Transformer의 인코더 구조를 최소한의 변화만으로 이미지 분류 문제에도 적용시켜 좋은 성능을 이끌어 낼 수 있는지에 대한 논문입니다.
+
 Transformer의 구조는 CNN 모델이 기본적으로 갖고있는 전제인 Inductive bias가 부족하다고 언급합니다. 
 
 Inductive biases:
@@ -39,3 +40,6 @@ Inductive biases:
   <img src="{{ site.baseurl }}/assets/images/posts/VisionTransformer/2.jpg" width="70%">
 </p>
 
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/posts/VisionTransformer/3.png" width="70%">
+</p>
