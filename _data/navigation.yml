@@ -14,11 +14,11 @@ header:
 
 docs:
   - title: Computer Vision
-    children:
-      - title: "Computer Vision Intro"
-        url: /computer%20vision/computer-vision-intro/
-  - title: Paper Review
     children: []
+  - title: Paper Review
+    children:
+      - title: "[ViT] An Image is Worth 16x16 Words"
+        url: /computer%20vision/VisionTransformer-kr/
   - title: Linear Algebra
     children: []
   - title: Statistics
@@ -28,11 +28,11 @@ docs:
 
 docs-kr:
   - title: 컴퓨터 비전
-    children:
-      - title: "Computer Vision 개요"
-        url: /computer%20vision/computer-vision-intro/
-  - title: 논문 리뷰
     children: []
+  - title: 논문 리뷰
+    children:
+      - title: "[ViT] An Image is Worth 16x16 Words"
+        url: /computer%20vision/VisionTransformer-kr/
   - title: 선형대수학
     children: []
   - title: 통계학
