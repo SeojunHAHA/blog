@@ -10,24 +10,22 @@
     text-decoration: none;
     color: inherit;
   }
-  .header .custom-brand img {
-    width: 36px;
-    height: 36px;
-    margin-right: 10px;
-  }
   .header .custom-brand .brand-text {
     display: flex;
     flex-direction: column;
-    line-height: 1.2;
+    line-height: 1.15;
   }
   .header .custom-brand .brand-title {
-    font-size: 1.4em;
-    font-weight: 800;
+    font-size: 1.6em;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
   .header .custom-brand .brand-subtitle {
-    font-size: 0.7em;
+    font-size: 0.65em;
     color: #999;
     font-weight: 400;
+    margin-top: 2px;
   }
 </style>
 <script>
@@ -39,9 +37,9 @@
       var brand = document.createElement("a");
       brand.className = "custom-brand";
       brand.href = href;
-      brand.innerHTML = '<img src="{{ site.baseurl }}/assets/images/favicon.ico" alt="logo">' +
+      brand.innerHTML =
         '<div class="brand-text">' +
-        '<span class="brand-title">Computer Vision Research Space</span>' +
+        '<span class="brand-title">COMPUTER VISION RESEARCH SPACE</span>' +
         '<span class="brand-subtitle">Learning to See</span>' +
         '</div>';
       link.parentElement.insertBefore(brand, link);
