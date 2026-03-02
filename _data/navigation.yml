@@ -1,32 +1,23 @@
 header:
   - titles:
       en: Categories
+      ko: Categories
     url: /categories/
   - titles:
-      en: Tags
-    url: /tags/
-  - titles:
       en: About
+      ko: About
     url: /about/
 
 docs:
   - title: Computer Vision
     children:
-      - title: All Posts
-        url: /categories/computer-vision/
+      - title: "첫 번째 포스트"
+        url: /computer%20vision/first-post/
   - title: Paper Review
-    children:
-      - title: All Posts
-        url: /categories/paper-review/
+    children: []
   - title: Linear Algebra
-    children:
-      - title: All Posts
-        url: /categories/linear-algebra/
+    children: []
   - title: Statistics
-    children:
-      - title: All Posts
-        url: /categories/statistics/
+    children: []
   - title: Calculus
-    children:
-      - title: All Posts
-        url: /categories/calculus/
+    children: []

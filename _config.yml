@@ -37,17 +37,18 @@ plugins:
 paths:
   root: /blog
 
-## Navigation (상단)
-header:
-  title: "Tech Blog"
-
 ## TOC
 toc:
   selectors: "h1,h2,h3"
 
-## Sidebar Navigation (왼쪽 사이드바)
+## Sidebar
 sidebar:
   nav: docs
+
+## Footer (팔로우 섹션 숨김)
+footer:
+  powered_by: false
+  hosted_on: false
 
 ## Defaults
 defaults:
@@ -62,7 +63,10 @@ defaults:
         toc: true
       show_edit_on_github: false
       show_subscribe: false
+      show_tags: true
+      show_date: true
       license: false
+      sharing: false
   - scope:
       path: ""
     values:
@@ -71,3 +75,6 @@ defaults:
         nav: docs
       aside:
         toc: true
+      show_subscribe: false
+      license: false
+      sharing: false
