@@ -1,31 +1,32 @@
-# main links (상단 네비게이션)
-main:
-  - title: "Categories"
+header:
+  - titles:
+      en: Categories
     url: /categories/
-  - title: "Tags"
+  - titles:
+      en: Tags
     url: /tags/
-  - title: "About"
+  - titles:
+      en: About
     url: /about/
 
-# sidebar navigation (왼쪽 사이드바)
 docs:
-  - title: "Computer Vision"
+  - title: Computer Vision
     children:
-      - title: "All Posts"
+      - title: All Posts
         url: /categories/computer-vision/
-  - title: "Paper Review"
+  - title: Paper Review
     children:
-      - title: "All Posts"
+      - title: All Posts
         url: /categories/paper-review/
-  - title: "Linear Algebra"
+  - title: Linear Algebra
     children:
-      - title: "All Posts"
+      - title: All Posts
         url: /categories/linear-algebra/
-  - title: "Statistics"
+  - title: Statistics
     children:
-      - title: "All Posts"
+      - title: All Posts
         url: /categories/statistics/
-  - title: "Calculus"
+  - title: Calculus
     children:
-      - title: "All Posts"
+      - title: All Posts
         url: /categories/calculus/
