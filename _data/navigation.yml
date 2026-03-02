@@ -1,15 +1,11 @@
 # main links (상단 네비게이션)
 main:
-  - title: "Computer Vision"
-    url: /categories/computer-vision/
-  - title: "Paper Review"
-    url: /categories/paper-review/
-  - title: "Linear Algebra"
-    url: /categories/linear-algebra/
-  - title: "Statistics"
-    url: /categories/statistics/
-  - title: "Calculus"
-    url: /categories/calculus/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
 
 # sidebar navigation (왼쪽 사이드바)
 docs:

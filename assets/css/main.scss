@@ -7,3 +7,105 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ===== 흰 배경 강제 적용 ===== */
+html, body {
+  background-color: #fff !important;
+  color: #333 !important;
+}
+
+.masthead {
+  background-color: #fff !important;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.masthead__inner-wrap {
+  background-color: #fff !important;
+}
+
+.greedy-nav {
+  background-color: #fff !important;
+
+  a {
+    color: #333 !important;
+  }
+
+  .visible-links a:before {
+    background: #333;
+  }
+}
+
+.page__footer {
+  background-color: #f5f5f5 !important;
+  color: #666 !important;
+
+  a {
+    color: #333 !important;
+  }
+}
+
+.initial-content,
+.page__content,
+.archive {
+  background-color: #fff !important;
+  color: #333 !important;
+}
+
+/* ===== 사이드바 스타일 (레퍼런스와 동일) ===== */
+.sidebar {
+  background-color: #fff !important;
+}
+
+.nav__list .nav__items {
+  .nav__sub-title {
+    text-transform: none !important;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #333 !important;
+    border-bottom: none;
+    padding-bottom: 0.25em;
+  }
+
+  a {
+    color: #555 !important;
+    font-size: 0.85em;
+    padding: 0.15em 0;
+    text-decoration: none;
+
+    &:hover {
+      color: #0073ae !important;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* ===== 링크 색상 ===== */
+.page__content a,
+.archive a {
+  color: #0073ae !important;
+}
+
+/* ===== 제목 색상 ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: #333 !important;
+}
+
+/* ===== TOC 스타일 ===== */
+.toc {
+  background-color: #fff !important;
+  border: 1px solid #e0e0e0;
+
+  .nav__title {
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+  }
+
+  a {
+    color: #555 !important;
+  }
+}
+
+/* ===== 검색 ===== */
+.search__toggle {
+  color: #333 !important;
+}
